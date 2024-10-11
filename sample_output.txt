@@ -1,0 +1,272 @@
+Script started on Sat 25 Nov 2023 05:16:31 PM HST
+]0;yujin31@uhx02:~/project2[?1034huhx02:/home/y/yujin31/project2% ./project
+Successfully read and load the data
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: d f p
+
+********************************************************************************
+
+The records will be printed
+
+
+--------------------------------------------
+Account Number: 123
+Name: qe
+Address:
+adasd#
+
+--------------------------------------------
+
+********************************************************************************
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: f
+
+********************************************************************************
+
+To find your record, please following the instruction below
+
+Please enter the account number you  want to create and add to the record: 123
+
+Thank you for enter your account number
+
+--------------------------------------------
+Account Number: 123
+Name: qe
+Address: adasd#
+
+--------------------------------------------
+
+The record is found, printed above
+
+********************************************************************************
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: exit    q
+
+********************************************************************************
+
+Thank you for using the program,Your session will now be terminated
+
+
+********************************************************************************
+Successfully write the data to the designated file
+]0;yujin31@uhx02:~/project2uhx02:/home/y/yujin31/project2% ./project_debug
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: readfile
+
+-----------------------------------------
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: llist constructor
+
+-----------------------------------------
+Successfully read and load the data
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: p
+
+********************************************************************************
+
+The records will be printed
+
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: printall record
+
+-----------------------------------------
+
+--------------------------------------------
+Account Number: 123
+Name: qe
+Address:
+adasd#
+
+--------------------------------------------
+
+********************************************************************************
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: add
+
+********************************************************************************
+
+ To add a new record to the database, Please follow the instruction below
+
+please enter your name: Yujin
+
+Please enter the account number you  want to create and add to the record: 321
+
+Please enter your address below and type dollar sign '$' end of your address: 
+HONOLULU
+HAWAII
+96816$
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: addRecord
+Name: Yujin
+Account Number: 321
+Address:
+HONOLULU
+HAWAII
+96816
+
+-----------------------------------------
+Your information will be added into the database.
+
+********************************************************************************
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: p f
+
+********************************************************************************
+
+To find your record, please following the instruction below
+
+Please enter the account number you  want to create and add to the record: 321
+
+Thank you for enter your account number
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: find record
+Account Number: 321
+
+-----------------------------------------
+
+--------------------------------------------
+Account Number: 321
+Name: Yujin
+Address: HONOLULU
+HAWAII
+96816
+
+--------------------------------------------
+
+The record is found, printed above
+
+********************************************************************************
+
+This is an database user-interface
+
+
+Please choose one of the following menu option that you would like to proceed by the type menu option at the bottom:
+
+  Menu Option   Description
+  add:          add a new record in the database
+  printall:     Print all records in the database
+  find:         Find record(s) with a specified account number
+  delete:       Delete existing record(s) from the database using the account number as a key
+  quit:         Quit the program
+
+please enter here: q
+
+********************************************************************************
+
+Thank you for using the program,Your session will now be terminated
+
+
+********************************************************************************
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: descructor
+
+-----------------------------------------
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: writefile
+
+-----------------------------------------
+Successfully write the data to the designated file
+
+-----------------------------------------
+
+Output from debug mode:
+Method name: cleanup
+
+-----------------------------------------
+]0;yujin31@uhx02:~/project2uhx02:/home/y/yujin31/project2% exit
+exit
+
+Script done on Sat 25 Nov 2023 05:18:30 PM HST
