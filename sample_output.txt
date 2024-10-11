@@ -1,5 +1,4 @@
 Script started on Sat 25 Nov 2023 05:16:31 PM HST
-]0;yujin31@uhx02:~/project2[?1034huhx02:/home/y/yujin31/project2% ./project
 Successfully read and load the data
 
 This is an database user-interface
